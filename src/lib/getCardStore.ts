@@ -29,7 +29,7 @@ interface ApiCard {
 const fetchApiCards = async (set: MagicSet, deck: Deck): Promise<ApiCard[]> => {
   const queryParams: Record<string, string> = {
     expansion: set.code,
-    format: "PremierDraft",
+    format: "TradDraft",
     start_date: set.startDate,
     end_date: new Date().toISOString().slice(0, 10),
   };
