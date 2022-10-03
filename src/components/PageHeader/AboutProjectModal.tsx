@@ -13,8 +13,8 @@ const AboutProjectModal: FC<Props> = ({ onClose }) => (
       <p className="mb-4">
         This page uses{" "}
         <LinkOut url="https://www.17lands.com/card_ratings">17Lands</LinkOut>{" "}
-        Premier Draft data to assign letter grades to cards. It infers a normal
-        distribution from the{" "}
+        Traditional Draft data to assign letter grades to cards. It infers a
+        normal distribution from the{" "}
         <LinkOut url="https://www.17lands.com/metrics_definitions#:~:text=Games%20in%20Hand%20Win%20Rate%20(GIH%20WR)">
           Games in Hand Win Rate
         </LinkOut>{" "}

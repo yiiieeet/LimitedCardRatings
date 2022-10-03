@@ -27,7 +27,7 @@ const PageHeader = () => {
         </div>
 
         <h1 className="grow font-belerenSmallCaps text-2xl tracking-wide">
-          Limited Grades
+          Limited Grades – Traditional
         </h1>
 
         <button
